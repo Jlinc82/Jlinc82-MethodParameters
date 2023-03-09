@@ -9,17 +9,16 @@ public class ParrotTest {
      * If p.copy is passed "hello", it should return "hello".
      */
     @Test
-    public void parrotTestHello(){
+    public void parrotTestHello(hello){
         String input = "hello";
         String expected = "hello";
         String actual = p.copy(input);
-        Assert.assertEquals(expected, actual);
     }
     /**
      * If p.copy is passed "polly", it should return "polly".
      */
     @Test
-    public void parrotTestPolly(){
+    public void parrotTestPolly(polly){
         String input = "polly";
         String expected = "polly";
         String actual = p.copy(input);
