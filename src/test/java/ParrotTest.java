@@ -9,7 +9,7 @@ public class ParrotTest {
      * If p.copy is passed "hello", it should return "hello".
      */
     @Test
-    public void parrotTestHello(hello){
+    public void parrotTestHello("hello"){
         String input = "hello";
         String expected = "hello";
         String actual = p.copy(input);
@@ -18,7 +18,7 @@ public class ParrotTest {
      * If p.copy is passed "polly", it should return "polly".
      */
     @Test
-    public void parrotTestPolly(polly){
+    public void parrotTestPolly("polly"){
         String input = "polly";
         String expected = "polly";
         String actual = p.copy(input);
